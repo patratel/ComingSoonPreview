@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
 import classes from './AboutUs.module.css';
 import ViewCards from '../../components/ViewCards/ViewCards';
 import ViewCard from '../../components/ViewCards/ViewCard/ViewCard';
 
-class AboutUs extends Component {
+class AboutUs extends PureComponent {
 
     render () {
         return (

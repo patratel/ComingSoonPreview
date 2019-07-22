@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
 import classes from './ContactUs.module.css';
 import ViewCard from '../../components/ViewCards/ViewCard/ViewCard';
 import Form from './Form/Form';
 
-class ContactUs extends Component {
+class ContactUs extends PureComponent {
 
     render () {
         return (
