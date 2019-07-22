@@ -1,0 +1,42 @@
+.Content{
+    background: linear-gradient(to right,rgba(237, 62, 62, 0.96) 50%,rgb(54, 56, 59, 0.96) 50%);
+    height:auto;
+    min-height:100%;
+    position: absolute;
+    display:flex;
+    flex-flow:row;
+    width:100%;
+    padding-bottom:120px;
+    z-index:6;
+}
+.CardsContainer{
+    display:flex;
+    flex-flow:column;
+    margin-left:5vw;
+    align-items:center;
+}
+@media (min-width: 1366px) and (max-width: 1700px) {
+    
+    .CardsContainer{
+        margin-left:0;
+    }
+    
+  }
+@media (min-width: 768px) and (max-width: 1280px) {
+    
+    .Content{
+        flex-flow:column;
+        align-items:center;
+    }
+    
+  }
+  
+@media (min-width: 280px) and (max-width: 767px) {
+
+    .Content{
+        flex-flow:column;
+        align-items:center;
+        padding-bottom:0;
+    }
+  
+}   

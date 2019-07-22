@@ -1,0 +1,91 @@
+.Icon{
+    height:58px;
+    width: 58px;
+}
+
+.ContainerCardWithIcon{
+    display:inline-block;
+    height:250px;
+    width:283px;
+    padding:30px 60px 60px 60px;
+    vertical-align: middle;
+    margin:0;
+}
+.ContainerCard{
+    height:339px;
+    width:296px;
+    display:block;
+    margin-left:5.5%;
+    position:relative;
+}
+
+.ContainerCard:first-of-type{   
+    margin-top:200px;
+}
+
+.LineCard{
+    width:70px;
+    height:3px;
+    background-color:white;
+}
+
+.TitleCard{
+    color:white;
+    font-size:3rem;
+    padding-bottom:50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.BodyCard{
+    padding-top:50px;
+    font-size:1rem;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.LineCardWithIcon{
+    width:70px;
+    height:3px;
+    background-color:#ed3e3e;
+}
+.TitleCardWithIcon{
+    color:#ed3e3e;
+    font-size:1.2rem;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-weight:800;
+    font-family: 'Roboto', sans-serif;
+}
+.BodyCardWithIcon{
+    padding-top:20px;
+    font-size:1rem;
+    color:#5a5a5af5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.SocialMediaContainer > i{
+    padding:60px 10px 20px 0;
+}
+
+@media (min-width: 1440px) and (max-width: 1980px) {
+    
+    .ContainerCard{
+        margin-left:20vw;
+    }
+    
+  }
+@media (min-width: 1366px) and (max-width: 1440px) {
+    
+    .ContainerCard{
+        margin-left:10vw;
+    }
+    
+  }
+
+@media (min-width: 280px) and (max-width: 480px) {
+    
+    .ContainerCardWithIcon{
+        width:233px;
+    }
+}
+

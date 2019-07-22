@@ -1,0 +1,12 @@
+.Content{
+    background-color:rgba(237, 62, 62, 0.96);
+    height:auto;
+    min-height:100%;
+    position: absolute;
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+    width:100%;
+    padding-bottom:120px;
+    z-index:6;
+}

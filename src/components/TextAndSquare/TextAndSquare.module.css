@@ -1,0 +1,83 @@
+.TextAndSquare{
+    width:705px;
+    height:363px;
+    font-size:2.7rem;
+    margin-top:200px;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Square{
+    width:48.36%;
+    height:93.93%;
+    border:11px solid rgba(255, 255, 255, .5);
+    z-index:40;
+    position:absolute;
+    border-left:0px;
+    right:0;
+}
+
+.Square:before, .Square:after{
+    content:'';
+    position:absolute;
+    height:50px;
+    left:0;
+    border-right:11px solid rgba(255, 255, 255, .5);
+  }
+  .Square:before{
+    top:0;
+    height:20%;
+    border-top:11px solid  rgba(255, 255, 255, .5);
+  }
+  .Square:after{
+    bottom:0;
+    height:20%;
+    border-bottom:11px solid  rgba(255, 255, 255, .5);
+  }
+
+.HeadlineText{
+    width:91.77%;
+    height:26.72%;
+    position:absolute;
+    z-index:50;
+    padding:30px 0;
+}
+
+.HeadlineText > p{
+    height:auto;
+    color:white;
+    text-align:center;
+    margin:0;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .TextAndSquare{
+        width:500px;
+        height:258px;
+        font-size:2rem;
+    }
+
+}
+  
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .TextAndSquare{
+        width:450px;
+        height:232px;
+        font-size:1.7rem;
+    }
+  
+}
+  
+@media (min-width: 280px) and (max-width: 480px) {
+    
+    .TextAndSquare{
+        width:350px;
+        height:180px;
+        font-size:1.3rem;
+    }
+    
+}
